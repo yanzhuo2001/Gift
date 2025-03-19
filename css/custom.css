@@ -1,0 +1,17 @@
+.single-portfolio-thumb img {
+    max-width: 500px;  /* 限制宽度 */
+    height: auto;      /* 高度自适应，防止图片变形 */
+    margin-left: 200px;
+}
+
+.imgmenu {
+    background-size: auto 100%; /* 让图片高度与 block 高度匹配，宽度自适应 */
+    background-position: center center; /* 图片水平和垂直居中 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+}
+
+.header-logo img {
+    margin-left: 475px;
+    width: auto; /* 调整 logo 大小，按需修改 */
+    max-height: 75px; /* 让高度自适应，保持比例 */
+}
